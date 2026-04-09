@@ -1,0 +1,27 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build and tooling artifacts
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large local data artifacts
+# Keep raw EEG datasets local and out of source control
+dataset/
+
+# Generated lock files and temp files
+.~lock.*
+*.log

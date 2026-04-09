@@ -1,0 +1,254 @@
+{
+  "datasetDir": "dataset",
+  "requiredClasses": [
+    "left_hand",
+    "right_hand",
+    "feet",
+    "tongue"
+  ],
+  "requireAllClassesInFile": true,
+  "filesUsed": [
+    "A01T.gdf",
+    "A02T.gdf",
+    "A03T.gdf",
+    "A04T.gdf",
+    "A05T.gdf",
+    "A06T.gdf",
+    "A07T.gdf",
+    "A08T.gdf",
+    "A09T.gdf"
+  ],
+  "skippedFiles": {
+    "B0101T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0102T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0103T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0201T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0202T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0203T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0301T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0302T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0303T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0401T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0402T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0403T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0501T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0502T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0503T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0601T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0602T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0603T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0701T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0702T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0703T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0801T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0802T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0803T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0901T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0902T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "B0903T.gdf": {
+      "reason": "missing_required_classes",
+      "availableLabels": [
+        "left_hand",
+        "right_hand"
+      ]
+    }
+  },
+  "totalFeatures": 2592,
+  "trainSamples": 2073,
+  "testSamples": 519,
+  "classCounts": {
+    "left_hand": 648,
+    "right_hand": 648,
+    "feet": 648,
+    "tongue": 648
+  },
+  "availableClasses": [
+    "feet",
+    "left_hand",
+    "right_hand",
+    "tongue"
+  ],
+  "testAccuracy": 0.2504816955684008,
+  "confusionMatrix": [
+    [
+      51,
+      9,
+      9,
+      60
+    ],
+    [
+      39,
+      16,
+      25,
+      50
+    ],
+    [
+      51,
+      12,
+      9,
+      58
+    ],
+    [
+      56,
+      12,
+      8,
+      54
+    ]
+  ]
+}
