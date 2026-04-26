@@ -19,7 +19,7 @@ A rapid MVP for EEG-based motor imagery classification with a Python backend and
 ## Quick start (Windows PowerShell)
 
 ```powershell
-cd "c:\Users\Nikhil Gupta\Desktop\Projects\BCI LAB"
+cd "BCI LAB"
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -40,7 +40,7 @@ Open: http://127.0.0.1:8000
 If you have GDF training files in the dataset folder, run:
 
 ```powershell
-cd "c:\Users\Nikhil Gupta\Desktop\Projects\BCI LAB"
+cd "BCI LAB"
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m backend.train_from_dataset --dataset-dir dataset
